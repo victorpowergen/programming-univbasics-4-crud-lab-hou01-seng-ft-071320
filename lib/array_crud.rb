@@ -7,8 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+<<<<<<< HEAD
  array = ["I", "am", "really", "learning"]
  element = ["arrays!"]
+=======
+ Array = [#{array}, #{element}]
+ add_element_to_end_of_array << "arrays!"
+>>>>>>> 013d08b9e77648dc467c9afceb515176f82b3d14
 end
 
 def add_element_to_start_of_array(array, element)
